@@ -1,22 +1,44 @@
-.App {
-  text-align: center;
+.row {
+  width: 900px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background: #0E7373;
   color: white;
+  padding: 2em 0;
 }
 
-.App-link {
-  color: #09d3ac;
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  color: #0E6973;
+}
+
+.book-search {
+  flex: 1.64;
+  order: 0;
+  margin-right: 20px;
+}
+
+.wishlist {
+  flex: 1;
+  order: 1;
+  margin-left: 20px;
+  position: sticky;
+  align-self: flex-start;
+  top: 0;
 }
